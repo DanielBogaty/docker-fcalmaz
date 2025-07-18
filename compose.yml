@@ -1,4 +1,4 @@
-# new commit
+# first commit to new branch
 services:
   nginx:
     image: nginx:latest
