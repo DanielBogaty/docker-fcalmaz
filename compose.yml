@@ -19,8 +19,7 @@ services:
       - fcalmaz
   
   fcalmaz:
-    build: ./fcalmaz
-    image: fcalmaz
+    image: danielbogaty/fcalmaz-docker:latest
     container_name: fcalmaz
     restart: always
     command: "gunicorn -c gunicorn.py fcalmaz.wsgi"
